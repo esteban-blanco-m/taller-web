@@ -1,5 +1,5 @@
 .page-header {
-    width: 95%; 
+    width: 95%;
     margin: 30px auto 40px auto;
     text-align: center;
 }
@@ -10,11 +10,11 @@
 }
 
 .interest-container {
-    width: 95%; 
+    width: 95%;
     margin: 0 auto 50px auto;
     display: flex;
     flex-direction: column;
-    gap: 40px; 
+    gap: 40px;
 }
 
 .interest-category,
@@ -23,11 +23,11 @@
     border: 1px solid #e0e0e0;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    padding: 50px 60px; 
+    padding: 50px 60px;
 }
 
 .interest-category p,
-.actors-category > p {
+.actors-category>p {
     text-align: justify;
     line-height: 1.7;
     margin-bottom: 30px;
@@ -39,7 +39,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 35px;
     margin: 40px 0;
 }
@@ -48,7 +48,7 @@
     border-radius: 8px;
     border: 2px solid #333;
     object-fit: cover;
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 .gallery-item {
@@ -56,7 +56,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 450px;
-    text-align: center;   
+    text-align: center;
 }
 
 .gallery-item p {
@@ -79,7 +79,7 @@
     border-radius: 12px;
     border: 3px solid #333;
     width: 100%;
-    max-width: 900px; 
+    max-width: 900px;
     height: auto;
     aspect-ratio: 16 / 9;
 }
@@ -87,7 +87,7 @@
 .links-box {
     background-color: #b1000344;
     border-left: 4px solid #641e1e;
-    padding: 25px 35px; 
+    padding: 25px 35px;
     border-radius: 0 12px 12px 0;
     margin-top: 40px;
 }
@@ -124,13 +124,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px; 
+    gap: 10px;
     margin-top: 40px;
 }
 
 .character-card {
     background-color: #f1c40f38;
-    border: 1px solid #641e1e; 
+    border: 1px solid #641e1e;
     border-radius: 12px;
     padding: 30px;
     width: 280px;
@@ -189,8 +189,8 @@
 }
 
 .social-icon {
-    width: 32px;     
-    height: 32px;  
+    width: 32px;
+    height: 32px;
     object-fit: contain;
 }
 
