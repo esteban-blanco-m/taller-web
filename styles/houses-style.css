@@ -1,3 +1,9 @@
+h1{
+    text-align: center;
+    padding: 0px;
+    margin: 5px;
+}
+
 .index {
     background-color: #fcfcfc;
     border: 1px solid #e0e0e0;
@@ -49,8 +55,8 @@
 }
 
 .houses-container {
-    width: 90%;
-    max-width: 900px;
+    width: 95%;
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

@@ -3,8 +3,32 @@
   box-sizing: border-box;
 }
 
+* h1,
+h2 {
+  text-decoration: underline;
+  text-decoration-color: #c3431c;
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* h1 {
+  font-size: 4rem;
+}
+
+* h2 {
+  font-size: 2rem;
+}
+
+* p {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+}
+
 body {
-  /*CAMBIAR FUENTEEE */
+
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -30,7 +54,12 @@ body {
   align-items: center;
   padding: 10px 40px;
   flex-direction: row;
-  position: sticky;
+  /* STATIC NAVBAR */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .nav-bar ul {
@@ -52,20 +81,11 @@ body {
   font-size: 20px;
 }
 
-
 .footer {
-    font-size: 12px;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    width: 100%;
-    margin-top: auto; 
-}
-.footer {
-    font-size: 12px;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    width: 100%;
-    margin-top: auto; 
+  font-size: 12px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
 }

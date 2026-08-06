@@ -55,8 +55,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 350px;
+    max-width: 450px;
+    text-align: center;   
+}
+
+.gallery-item p {
+    width: 100%;
     text-align: center;
+    margin: 10px 0 0;
 }
 
 .gallery-item img {
@@ -123,11 +129,11 @@
 }
 
 .character-card {
-    background-color: #ffffff;
-    border: 3px solid #333; 
+    background-color: #f1c40f38;
+    border: 1px solid #641e1e; 
     border-radius: 12px;
     padding: 30px;
-    width: 300px;
+    width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,8 +174,7 @@
 }
 
 .social-links a {
-    color: #333;
-    transition: transform 0.2s, color 0.2s;
+    color: #1d1818;
 }
 
 .social-links a:hover {
@@ -177,12 +182,11 @@
 }
 
 .social-links p {
-    color: #777;
+    color: #1d1515;
     font-size: 14px;
     text-align: center;
     margin: 0;
 }
-
 
 .social-icon {
     width: 32px;     
