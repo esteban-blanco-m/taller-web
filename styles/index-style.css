@@ -14,14 +14,13 @@ h2 {
   margin: 5px;
 }
 
-
 .biography-card {
   width: 90%;
   margin: 0 auto;
   padding: 20px;
 }
 
-#biography-text {
+#biography-text p {
   text-align: justify;
   line-height: 1.6;
   overflow: hidden;
