@@ -1,0 +1,41 @@
+
+h1,
+h2 {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.biography-table {
+    width: 95%;
+    margin: 0 auto 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.6;
+}
+
+tr:first-child {
+    background-color: #641e1e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #c3991c77;
+}
+
+tr:nth-child(odd):not(:first-child) {
+    background-color: #efeee9;
+}

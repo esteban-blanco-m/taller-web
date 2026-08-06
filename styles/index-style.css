@@ -1,0 +1,27 @@
+#hp-initial {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 18px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.biography-card {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#biography-text {
+  text-align: justify;
+  line-height: 1.6;
+  overflow: hidden;
+}

@@ -1,0 +1,140 @@
+.index {
+    background-color: #fcfcfc;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: ro;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.index ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border-right: 4px solid #641e1e;
+    padding-right: 25px;
+    text-align: right;
+}
+
+.index li {
+    margin-bottom: 15px;
+}
+
+.index li a {
+    text-decoration: none;
+    color: #641e1e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.index li a:hover {
+    color: #f1c40f;
+    font-size: 20px;
+}
+
+#houses-image {
+    width: auto;
+    height: 260px;
+    border-radius: 8px;
+}
+
+.houses-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.house-subsection {
+    border: 3px solid #333;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    color: #111;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gryffindor-bg {
+    background: linear-gradient(135deg, #b10003, #3b0000);
+    color: white;
+    border-color: #d3a625;
+}
+
+#gryffindor-qualities li::marker {
+    color: #d3a625;
+}
+
+#gryffindor-characters li::marker {
+    color: #ffee00;
+}
+
+.gryffindor-bg li {
+    color: white;
+}
+
+
+.hufflepuff-bg {
+    background: linear-gradient(135deg, #fbd678, #c79510);
+    color: #111;
+    border-color: #372e29;
+}
+
+#hufflepuff-qualities li::marker {
+    color: #372e29;
+}
+
+#hufflepuff-characters li::marker {
+    color: #000000;
+}
+
+.hufflepuff-bg li {
+    color: #111;
+}
+
+.ravenclaw-bg {
+    background: linear-gradient(135deg, #1b3076, #050a1a);
+    color: white;
+    border-color: #616a6b;
+}
+
+#ravenclaw-qualities li::marker {
+    color: #e6da32;
+}
+
+#ravenclaw-characters li::marker {
+    color: #888678;
+}
+
+.ravenclaw-bg li {
+    color: white;
+}
+
+.slytherin-bg {
+    background: linear-gradient(135deg, #1a472a, #0a1f11);
+    color: white;
+    border-color: #000000;
+}
+
+#slytherin-qualities li::marker {
+    color: #6a6a6a;
+}
+
+#slytherin-characters li::marker {
+    color: #5d5d5d;
+}
+
+.slytherin-bg li {
+    color: white;
+}
