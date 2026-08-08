@@ -29,6 +29,13 @@ body {
   flex-direction: column;
 }
 
+body > header:first-of-type {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
 #hplogo {
   margin-right: 10px;
   border-radius: 8px;
