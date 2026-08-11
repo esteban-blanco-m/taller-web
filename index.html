@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-style.css">
+    <title>Ñappi</title>
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="logo-container">
+            <img id="logo-letters" src="images/nappi-logo-letters.png" alt="Logo de Ñappi">
+        </div>
+        <div class="cart-container" id="cart-container">
+            <button id="cart-icon" aria-label="Ver carrito de compras">Carrito</button>
+            <div class="cart-dropdown" id="cart-dropdown">
+                <h3>Tus Selecciones Confusas</h3>
+                <table id="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-body">
+                    </tbody>
+                </table>
+                <p class="cart-promo"><strong>Promoción:</strong> Pack de la Confusión (Lleva 6, paga 5)</p>
+                <button id="btn-empty-cart">Vaciar carrito</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="introduction">
+            <h2>BIENVENIDO A</h2>
+            <img id="logo" src="images/nappi-logo-complete.png" alt="Logo de Nappi">
+            <p>En Ñappi creemos que todos merecen disfrutar de la comida, incluso aquellos restaurantes que
+                probablemente nunca estarán legalmente constituidos.</p>
+
+            <p>Por eso, reunimos los establecimientos que no aparecen en ningún registro, no tienen intención de
+                aparecer y, sinceramente, preferirían que nadie preguntara demasiado.</p>
+
+            <p>Desde la cocina de tu vecino hasta ese puesto que apareció misteriosamente en una cochera, en Ñappi
+                encontrarás la más rara, absurda y bizarra variedad de sabores y platos que jamás imaginaste pedir.</p>
+        </section>
+
+
+        <section id="store" class="product-grid">
+
+            <!-- Product 1 -->
+            <article class="product-card">
+                <img src="images/chamber.png" alt="Chamber">
+                <h3 class="product-name">CHAMBER™ — Sabor Original</h3>
+                <p class="product-price">$4.200</p>
+                <div class="product-attributes">
+                    <p class="attr-desc"><strong>Descripción:</strong> Nadie sabe exactamente qué es. El vendedor
+                        dijo "eso es chamber, papi" y procedió a echarle limón, sal y una sustancia de color sospechoso.
+                    </p>
+                    <p class="attr-confusion"><strong>Confusión:</strong> 11/10</p>
+                    <p class="attr-warning"><strong>Advertencia:</strong> Si pregunta qué contiene, automáticamente deja
+                        de ser cliente premium.</p>
+                </div>
+                <button class="btn-add" data-id="1">Agregar al carrito</button>
+            </article>
+
+            <!-- Product 2 -->
+            <article class="product-card">
+                <img src="images/tinto-uribe.png" alt="Tinto A Colombia la Está Matando la Pereza">
+                <h3 class="product-name">Tinto "A Colombia la Está Matando la Pereza"</h3>
+                <p class="product-price">$1.200</p>
+                <div class="product-attributes">
+                    <p class="attr-desc"><strong>Descripción:</strong> Tinto negro, hirviendo y servido en vasito
+                        diminuto.
+                        Incluye automáticamente una opinión política que nadie solicitó y la obligación moral de
+                        madrugar mañana.</p>
+                    <p class="attr-confusion"><strong>Confusión:</strong> Nivel Uribe 2002</p>
+                    <p class="attr-warning"><strong>Advertencia:</strong> Puede generar ganas inexplicables de trabajar
+                        14 horas.</p>
+                </div>
+                <button class="btn-add" data-id="2">Agregar al carrito</button>
+            </article>
+
+            <!-- Product 3 -->
+            <article class="product-card">
+                <img src="images/chorizo.png" alt="Chorizos radioactivos">
+                <h3 class="product-name">Chorizos Radioactivos B/quilla</h3>
+                <p class="product-price">$5.000</p>
+                <div class="product-attributes">
+                    <p class="attr-desc"><strong>Descripción:</strong> Chorizos radioactivos, ideal para aquellos que buscan una experiencia gastronómica totalmente co'teña</p>
+                    <p class="attr-confusion"><strong>Confusión:</strong> Nivel Costa</p>
+                    <p class="attr-warning"><strong>Advertencia:</strong> El producto puede ser pronunciado con acento
+                        costeño por el consumidor.</p>
+                </div>
+                <button class="btn-add" data-id="3">Agregar al carrito</button>
+            </article>
+
+            <!-- Product 4 -->
+            <article class="product-card">
+                <img src="images/pollo-friby.png" alt="Pollo Friby Clásico">
+                <h3 class="product-name">Pollo Friby Clásico™</h3>
+                <p class="product-price">$18.900</p>
+                <div class="product-attributes">
+                    <p class="attr-desc"><strong>Descripción:</strong> Pollo aparentemente normal, pero escrito "Friby"
+                        porque Ñappi no consiguió permiso para usar la otra marca. Viene con papas, gaseosa y una crisis
+                        de identidad corporativa.</p>
+                    <p class="attr-confusion"><strong>Confusión:</strong> Nivel Marca Pirata</p>
+                    <p class="attr-warning"><strong>Advertencia:</strong> "Nadie lo hace como Friby lo hace".</p>
+                </div>
+                <button class="btn-add" data-id="4">Agregar al carrito</button>
+            </article>
+
+            <!-- Product 5 -->
+            <article class="product-card">
+                <img src="images/bazuco-pure.png" alt="Combo 20 Kilos">
+                <h3 class="product-name">Combo 8 Kilos de "No me la vaya a traer muy puré"</h3>
+                <p class="product-price">$20.000</p>
+                <div class="product-attributes">
+                    <p class="attr-desc"><strong>Descripción:</strong> Ocho kilos de una sustancia completamente
+                        legal,
+                        inexplicablemente empacada en bolsas transparentes que pidió un indigente con 6 libras de marihuana</p>
+                    <p class="attr-confusion"><strong>Confusión:</strong> Nivel Fiscalía</p>
+                    <p class="attr-warning"><strong>Advertencia:</strong> El producto no contiene sustancias ilegales.
+                        Probablemente.</p>
+                </div>
+                <button class="btn-add" data-id="5">Agregar al carrito</button>
+            </article>
+
+            <!-- Product 6 -->
+            <article class="product-card">
+                <img src="images/combo-nero.png" alt="Ñero Gourmet">
+                <h3 class="product-name">Ñero Gourmet de la 38</h3>
+                <p class="product-price">$13.800</p>
+                <div class="product-attributes">
+                    <p class="attr-desc"><strong>Descripción:</strong> Arroz, huevo, salchichón, papas de paquete,
+                        una Pony Malta y una servilleta doblada cuatro veces. Alta gastronomía de esquina.</p>
+                    <p class="attr-confusion"><strong>Confusión:</strong> Nivel "Qué Más Pues"</p>
+                    <p class="attr-warning"><strong>Advertencia:</strong> El cocinero puede llamarlo "bro" aunque usted
+                        tenga 47 años.</p>
+                </div>
+                <button class="btn-add" data-id="6">Agregar al carrito</button>
+            </article>
+
+            <!-- Product 8 -->
+            <article class="product-card">
+                <img src="images/fiado.png" alt="Combo Se Lo Fiamos">
+                <h3 class="product-name">Combo "Se Lo Fiamos Pero No Vuelva"</h3>
+                <p class="product-price">$0 + deuda</p>
+                <div class="product-attributes">
+                    <p class="attr-desc"><strong>Descripción:</strong> Empanada, Pony Malta, papas y una deuda
+                        anotada en un cuaderno cuadriculado que misteriosamente tiene su número de cédula.</p>
+                    <p class="attr-confusion"><strong>Confusión:</strong> Nivel Tienda de Barrio</p>
+                    <p class="attr-warning"><strong>Advertencia:</strong> El sistema de crédito de Ñappi consiste en "yo
+                        me acuerdo de usted".</p>
+                </div>
+                <button class="btn-add" data-id="8">Agregar al carrito</button>
+            </article>
+
+            <!-- Product 9 -->
+            <article class="product-card">
+                <img src="images/hormiga-culona-classic.png" alt="Hormiga Culona Classic">
+                <h3 class="product-name">Hormiga Culona Classic</h3>
+                <p class="product-price">$9.950</p>
+                <div class="product-attributes">
+                    <p class="attr-desc"><strong>Descripción:</strong> Un clásico de la gastronomía colombiana, con hormigas de calidad y un toque de ñam.</p>
+                    <p class="attr-confusion"><strong>Confusión:</strong> Nivel República Independiente</p>
+                    <p class="attr-warning"><strong>Advertencia:</strong> Incluye gratuitamente la frase "no joda,
+                        parce".</p>
+                </div>
+                <button class="btn-add" data-id="9">Agregar al carrito</button>
+            </article>
+
+        </section>
+
+        <section id="add-article-section">
+            <h2>Inventa una nueva confusión (Agregar Artículo)</h2>
+            <p><em>Añade un nuevo producto a la tienda.</em></p>
+
+            <form id="add-article-form">
+                <div class="form-group">
+                    <label for="input-name">Nombre del Artículo:</label>
+                    <input type="text" id="input-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="input-price">Precio ($):</label>
+                    <input type="number" id="input-price" min="0" step="0.01" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="input-image">URL de la Imagen:</label>
+                    <input type="url" id="input-image" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="input-desc">Atributo 1 (Descripción):</label>
+                    <textarea id="input-desc" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="input-confusion">Atributo 2 (Nivel de Confusión):</label>
+                    <input type="text" id="input-confusion" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="input-warning">Atributo 3 (Advertencia):</label>
+                    <input type="text" id="input-warning" required>
+                </div>
+
+                <button type="submit" id="btn-submit-article">Agregar Artículo</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <p><strong>Su pedido llegará... ¿O no? Es una sorpresa.</strong></p>
+        <p><small>&copy; 2026 Ñappi - Todos los derechos confundidos.</small></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
